@@ -11,7 +11,7 @@ body{
 }
 .banner{
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("C:/Users/Admin/Downloads/banner.jpg") center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/banner.jpg") center/cover no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,7 +24,7 @@ body{
     grid-template-columns: 420px 420px;
 }
 .card-img{
-    background: url("C:/Users/Admin/Downloads/card-img.jpg") center/cover no-repeat;
+    background: url("./img/card-img.jpg") center/cover no-repeat;
 }
 .banner h2{
     padding-bottom: 40px;
