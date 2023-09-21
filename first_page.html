@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>RESTRO</title>
+    </head>
+    <body>
+        <section class="menu">
+            <div class="nav">
+                <div class="logo"><h1>HELLO<b>FOODIES!!!</b></h1></div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="book.html">Book</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+
+                </ul>
+                <div>
+                    <input class="signIn" id="login" type="submit" value="Sign In"  name="signin">
+                    <input class="signUp" type="submit" value="Sign Up" name="signup">
+                
+
+                </div>
+
+
+
+                </div>
+               
+                
+
+            </div>
+            <div class="imagee">
+                <img src="C:\Users\Admin\Downloads\foo.jpg" style="width:98%;height:500px;opacity:0.5;" loading="lazy">
+                <div class="para">
+                   <h2> Order Your Favourite</h2>
+                   <h3>Food Right Now</h3>
+                   <h4> Heyy,,We are near to you! </h4>
+                   <input class="menuu" type="submit" onclick="funn()" value="See Our Menu">
+                </div>
+            </div> 
+        </section>
+        <div class="popup" id="popup">
+            <div class="close-btn">&times;</div>
+            <div class="formm">
+                <h2> signIn<h2>
+                <input type="text" id="email" placeholder="Enter email">
+                <input type="password" id="password" placeholder="Enter password">
+                <input type="checkbox" id="remember-me">
+                <label for="remember-me">Remember Me</label>
+                <button>SignIn</button>
+                <span class="psw"><a href="#">Forgot password?</a></span>
+                
+
+            </div>
+            <script>
+                 
+
+                login.addEventListener("click",function(){
+                    popup.classList.add("active");
+                });
+                document.querySelector(".popup .close-btn").addEventListener("click",function(){
+                    document.querySelector(".popup").classList.remove("active");
+                });
+        
+            </script>
+
+            
+
+        <script>
+            function funn(){
+                window.open("menu.html")
+            }
+        </script>
+        
+    </body>
+    
+</html>
